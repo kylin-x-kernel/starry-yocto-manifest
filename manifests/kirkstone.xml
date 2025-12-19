@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto"
+          fetch="https://git.yoctoproject.org"/>
+
+  <remote name="github"
+          fetch="https://github.com"/>
+
+  <default revision="kirkstone"
+           remote="yocto"
+           sync-j="8"/>
+
+  <project name="poky"
+           path="poky"/>
+
+  <project name="meta-openembedded"
+           remote="github"
+           revision="kirkstone"
+           path="meta-openembedded"/>
+
+  <project name="kylin-x-kernel/meta-starry"
+           remote="github"
+           revision="main"
+           path="meta-starry"/>
+
+  <project name="kylin-x-kernel/StarryOS"
+           remote="github"
+           revision="6616268162b3cad26891b1e198ec817eef25d250"
+           path="StarryOS"/>
+
+</manifest>
