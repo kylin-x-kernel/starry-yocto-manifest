@@ -24,6 +24,11 @@
            revision="main"
            path="meta-starry"/>
 
+  <project name="rust-embedded/meta-rust-bin"
+           remote="github"
+           revision="79c077fac9694eb5fbcee7b15e800c21e887bb5d"
+           path="meta-rust-bin"/>
+
   <project name="kylin-x-kernel/StarryOS"
            remote="github"
            revision="6616268162b3cad26891b1e198ec817eef25d250"
