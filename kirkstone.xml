@@ -23,8 +23,12 @@
   <project name="kylin-x-kernel/StarryOS-YOCTO"
            remote="github"
            revision="main"
-           path="meta-starry"/>
+           path="StarryOS-YOCTO"/>
 
+  <project name="kylin-x-kernel/meta-starry"
+           remote="github"
+           revision="main"
+           path="meta-starry"/>
 
   <project name="kylin-x-kernel/arceos"
            remote="github"
