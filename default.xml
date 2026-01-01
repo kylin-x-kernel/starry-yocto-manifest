@@ -30,9 +30,4 @@
            revision="main"
            path="meta-starry"/>
 
-  <project name="kylin-x-kernel/arceos"
-           remote="github"
-           revision="dev"
-           path="arceos"/>
-
 </manifest>
