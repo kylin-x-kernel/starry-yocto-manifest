@@ -17,7 +17,7 @@
   <project name="kernel_guard" path="kernel_guard" revision="main" />
   <project name="meta-starry" remote="gitee" path="meta-starry"/>
   <project name="poky" path="poky" revision="kirkstone"/>
-  <project name="openembedded" path="openembedded" revision="kirkstone"/>
+  <project name="meta-openembedded" path="openembedded" revision="kirkstone"/>
 
 
 </manifest>
