@@ -3,6 +3,26 @@
 ```bash
 sudo apt update && sudo apt install -y git repo build-essential
 ```
+
+如果提示E: 无法定位软件包 repo
+
+```bash
+# 创建 bin 目录（如果不存在）
+mkdir -p ~/bin
+
+# 下载 repo 工具
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+# 赋予执行权限
+chmod a+x ~/bin/repo
+
+# 添加到 PATH（如果尚未添加）
+echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
+# 验证安装
+repo --version
+```
 ## 源码拉取
 ```bash
 # 创建工作目录
