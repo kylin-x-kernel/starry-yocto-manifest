@@ -2,5 +2,5 @@
 <manifest>
     <include name="base.xml" />
 
-    <project name="StarryOs" path="StarryOs" revision="main" />
+    <project name="StarryOS" path="StarryOS" revision="main" />
 </manifest>

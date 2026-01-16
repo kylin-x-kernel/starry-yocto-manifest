@@ -15,6 +15,7 @@
   <project name="axplat-aarch64-crosvm-virt" path="common/axplat-aarch64-crosvm-virt" revision="main" />
   <project name="fdtree-rs" path="fdtree-rs" revision="main" />
   <project name="kernel_guard" path="kernel_guard" revision="main" />
+  <project name="page_table_multiarch" path="page_table_multiarch" revision="dev" />
   <project name="meta-starry" remote="gitee" path="meta-starry"/>
   <project name="poky" path="poky" revision="kirkstone"/>
   <project name="meta-openembedded" path="openembedded" revision="kirkstone"/>
