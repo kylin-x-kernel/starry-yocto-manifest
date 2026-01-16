@@ -25,11 +25,3 @@
 
 
 
-
-    <default revision="main" remote="github" sync-j="4" sync-c="true" />
-
-    <project name="toolchain.git"      path="common/toolchain"      revision="main" />
-    <project name="base-driver.git"    path="common/base-driver"    revision="main" />
-
-    <project name="yocto-build.git"    path="yocto-build"           revision="main" />
-
